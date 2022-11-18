@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import prompt, random
+import prompt
+import random
 
 
 answers = ['yes', 'no']
@@ -29,6 +30,7 @@ def main():
                 break
     if count == 3:
         print(f'Congratulations, {name}!')
+
 
 if __name__ == '__main__':
     main()

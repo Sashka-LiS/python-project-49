@@ -17,7 +17,7 @@ def main(rule, question_answer):
 
     name = welcome_user(rule)
     while score != 3:
-        question, correct_answer = question_answer
+        question, correct_answer = question_answer()
         print(question)
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:

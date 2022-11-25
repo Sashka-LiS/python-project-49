@@ -11,21 +11,15 @@ def welcome_user(rule):
     return name
 
 
-def get_answer(question):
-    '''задать вопрос и получить ответ'''
-
-    print(question)
-    answer = prompt.string('Your answer: ')
-    return answer
-
-
-def main(rule, question, correct_answer):
+def main(rule, question_answer):
 
     score = 0
 
     name = welcome_user(rule)
     while score != 3:
-        answer = get_answer(question)
+        question, correct_answer = question_answer
+        print(question)
+        answer = prompt.string('Your answer: ')
         if answer == correct_answer:
             score += 1
             print('Correct!')
@@ -36,5 +30,5 @@ def main(rule, question, correct_answer):
     if score == 3:
         print(f'Congratulations, {name}!')
 
-# if __name__ == '__main__':
-#     main()
+
+

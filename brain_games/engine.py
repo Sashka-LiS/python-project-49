@@ -19,7 +19,7 @@ def main(rule, question_answer):
     while score != 3:
         question, correct_answer = question_answer()
         print(question)
-        answer = prompt.string('Your answer: ')
+        answer = (prompt.string('Your answer: ')).lower()
         if answer == correct_answer:
             score += 1
             print('Correct!')
@@ -29,6 +29,3 @@ def main(rule, question_answer):
             break
     if score == 3:
         print(f'Congratulations, {name}!')
-
-
-

@@ -4,8 +4,9 @@ import operator
 
 rule = 'What is the result of the expression?'
 
+
 def question_and_answer():
-    '''вернуть вопрос и ответ'''
+    '''вернуть вопрос и правильный ответ'''
 
     num1 = random.randint(1, 10)
     num2 = random.randint(1, 10)
@@ -20,4 +21,3 @@ def question_and_answer():
     elif oper == '*':
         correct_answer = operator.mul(num1, num2)
     return question, str(correct_answer)
-

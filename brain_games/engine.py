@@ -20,7 +20,7 @@ def main(rule, question_answer):
         question, correct_answer = question_answer()
         print(question)
         answer = (prompt.string('Your answer: ')).lower()
-        if answer == correct_answer:
+        if answer == str(correct_answer):
             score += 1
             print('Correct!')
         else:

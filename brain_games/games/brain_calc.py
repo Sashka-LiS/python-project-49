@@ -20,4 +20,4 @@ def question_and_answer():
         correct_answer = operator.sub(num1, num2)
     elif oper == '*':
         correct_answer = operator.mul(num1, num2)
-    return question, str(correct_answer)
+    return question, correct_answer

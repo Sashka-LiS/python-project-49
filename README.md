@@ -6,3 +6,6 @@ https://asciinema.org/a/2l6qCacfgDlTogM89etu6KkTU
 
 # asciinema for brain-calc
 https://asciinema.org/a/DScqHMqwsj0EuSv8TxhKgzIQ9
+
+# saciinema for brain-gcd
+https://asciinema.org/a/owLChLoS0OQSRistVcKaiNnhG

@@ -23,4 +23,3 @@ def question_and_answer():
         correct_answer = 'yes'
 
     return question, correct_answer
-

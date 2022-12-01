@@ -23,14 +23,3 @@ def question_and_answer():
     question = f'Question: {progression}'
 
     return question, correct_answer
-
-
-
-
-
-
-
-
-
-# print(question_and_answer)
-

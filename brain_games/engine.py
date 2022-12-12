@@ -1,22 +1,18 @@
 import prompt
 
 
-def welcome_user(rule):
-    '''приветсвие, объяснение правил, получение имени'''
-
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    print(rule)
-    return name
+MAX_SCORE = 3
 
 
 def main(rule, question_answer):
 
     score = 0
 
-    name = welcome_user(rule)
-    while score != 3:
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    print(rule)
+    while score != MAX_SCORE:
         question, correct_answer = question_answer()
         print(question)
         answer = (prompt.string('Your answer: ')).lower()
@@ -28,5 +24,5 @@ def main(rule, question_answer):
                   f'Correct answer was "{correct_answer}".')
             print(f"Let's try again, {name}!")
             break
-    if score == 3:
+    if score == MAX_SCORE:
         print(f'Congratulations, {name}!')

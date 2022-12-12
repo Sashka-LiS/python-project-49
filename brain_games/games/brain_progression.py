@@ -1,7 +1,7 @@
 import random
 
 
-rule = 'What number is missing in the progression?'
+RULE = 'What number is missing in the progression?'
 
 
 def question_and_answer():

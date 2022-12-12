@@ -1,17 +1,32 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Sashka-LiS/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Sashka-LiS/python-project-49/actions)
 
-# asciinema for brain-even
-https://asciinema.org/a/2l6qCacfgDlTogM89etu6KkTU
+### Maintainability
+[![Maintainability](https://api.codeclimate.com/v1/badges/b18577a1be9eaf5ddcc9/maintainability)](https://codeclimate.com/github/Sashka-LiS/python-project-49/maintainability)
 
-# asciinema for brain-calc
-https://asciinema.org/a/DScqHMqwsj0EuSv8TxhKgzIQ9
+## Hexlet-code
+<p>This project is a set of mini games.</p>
 
-# asciinema for brain-gcd
-https://asciinema.org/a/owLChLoS0OQSRistVcKaiNnhG
+## Package installation
+<p>To install a project as a package, enter the command "make package-install".</p>
+[![asciicast](https://asciinema.org/a/5nwFBF7FJQloIuwUSrJnT5ITI.svg)](https://asciinema.org/a/5nwFBF7FJQloIuwUSrJnT5ITI)
 
-# asciinema for brain-progression
-https://asciinema.org/a/icj2WJ1LgdKc8hcYY9NqVJTfS
+## "Even Check"
+<p>To start the game "Even Check", type the command "brain-even".</p>
+[![asciicast](https://asciinema.org/a/CObIiUH1L5XSvNp9o5zLbcQBn.svg)](https://asciinema.org/a/CObIiUH1L5XSvNp9o5zLbcQBn)
 
-# asciinema for brain-prime
-https://asciinema.org/a/XnpbpunHmY8FlulKFR331xdcU
+## "Calculator"
+<p>To start the game "Calculator", type the command "brain-calc".</p>
+[![asciicast](https://asciinema.org/a/QVA45KwmfLfieeqkPUT2pZf3K.svg)](https://asciinema.org/a/QVA45KwmfLfieeqkPUT2pZf3K)
+
+## "Greatest Common Divisor"
+<p>To start the game "Greatest Common Divisor", type the command "brain-gcd".</p>
+[![asciicast](https://asciinema.org/a/ZwlmporuZGys7zYkY4CKVnSYX.svg)](https://asciinema.org/a/ZwlmporuZGys7zYkY4CKVnSYX)
+
+## "Arithmetic progression"
+<p>To start the game "Arithmetic progression", type the command "brain-progression".</p>
+[![asciicast](https://asciinema.org/a/iKaYtk0wPaIzDj5ydDaOyKqBN.svg)](https://asciinema.org/a/iKaYtk0wPaIzDj5ydDaOyKqBN)
+
+## "Is it a prime number?"
+<p>To start the game "Is it a prime number?", type the command "brain-prime".</p>
+[![asciicast](https://asciinema.org/a/cduTikU2UxfAbYNTvsj4KDbXw.svg)](https://asciinema.org/a/cduTikU2UxfAbYNTvsj4KDbXw)

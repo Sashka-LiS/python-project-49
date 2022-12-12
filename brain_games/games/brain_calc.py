@@ -2,7 +2,7 @@ import random
 import operator
 
 
-rule = 'What is the result of the expression?'
+RULE = 'What is the result of the expression?'
 
 
 def question_and_answer():

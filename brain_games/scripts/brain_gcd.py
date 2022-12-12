@@ -4,7 +4,7 @@ from brain_games.games import brain_gcd
 
 
 def main():
-    engine.main(brain_gcd.rule, brain_gcd.question_and_answer)
+    engine.main(brain_gcd.RULE, brain_gcd.question_and_answer)
 
 
 if __name__ == '__main__':
